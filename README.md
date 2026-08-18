@@ -128,8 +128,4 @@ server/data/db.json
 
 The backend recreates it with the original 16 movies the next time it starts.
 
-## Viva explanation
 
-If asked what you changed:
-
-> Previously, authentication and movie CRUD were handled in React state and localStorage. I added a Node.js and Express REST API. The backend validates requests, hashes passwords using bcrypt, creates JWT sessions, and protects create, update and delete operations with authentication middleware. Movie and watchlist data are persisted on the server, and the React frontend communicates with the backend using fetch requests.
